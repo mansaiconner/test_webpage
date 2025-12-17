@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+#logo {
+  width: 200px;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  width: 100vw;
+  background-color: #1f2937;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+}
+
+.dough {
+  width: 130px;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid #3882f6;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-text {
+  align-self: center;
+}
+
+.breads {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header-links > button {
+  background-color: #1f2937;
+}
+
+.footer {
+  align-self: center;
+  justify-self: center;
+  background-color: #1f2937;
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > div {
+  color: white;
+}
+
+.b {
+  background-color: none;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #3882f6;
+  padding: 100px;
+  border-radius: 20px;
+  color: white;
+}
+
+.action {
+  border: 2px solid white;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  align-self: center;
+  width: 100vw;
+}
