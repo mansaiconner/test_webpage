@@ -7,7 +7,7 @@ body {
 }
 
 #logo {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -40,10 +40,23 @@ img {
 .first {
   display: flex;
   justify-content: space-between;
+  background-color: #1f2937;
+  width: 100vw;
+  align-self: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.image {
+  padding: 16px;
 }
 
 .first-text {
   align-self: center;
+  color: white;
+  padding-left: 16px;
 }
 
 .breads {
@@ -92,6 +105,7 @@ button {
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #3882f6;
   padding: 100px;
   border-radius: 20px;
@@ -106,4 +120,26 @@ button {
   background-color: #e5e7eb;
   align-self: center;
   width: 100vw;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  justify-self: center;
+  align-self: center;
+  margin: 20px;
+  width: 50%;
+}
+
+.quote-author {
+  align-self: center;
+  width: 50%;
+  margin-top: 10px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  cursor: pointer;
 }
